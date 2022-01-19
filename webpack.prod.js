@@ -27,6 +27,12 @@ module.exports = {
         './SimpleComponent': './src/SimpleComponent',
         './TimeNow': './src/TimeNow',
       },
+      shared: [
+        {
+          react: { singleton: true, eager: true },
+          'react-dom': { singleton: true, eager: true },
+        },
+      ],
     }),
     new HtmlWebpackPlugin({
       template: './public/index.html',
