@@ -1,5 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import LibraryApp from './LibraryApp';
 
-ReactDOM.render(<App />, document.querySelector('#mfe_library'));
+ReactDOM.render(<LibraryApp />, document.querySelector('#mfe_library'));
