@@ -7,3 +7,5 @@ export const PersonalDetails = ({ name, dob }) => {
     </div>
   );
 };
+
+export default PersonalDetails;

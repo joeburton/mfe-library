@@ -33,8 +33,10 @@ module.exports = {
       filename: 'remoteEntry.js',
       library: { type: 'var', name: 'mfe_library' },
       exposes: {
+        './Components': '/src/Components',
         './PersonalDetails': './src/PersonalDetails',
         './TimeNow': './src/TimeNow',
+        './Button': './src/Button',
       },
       shared: [
         {
