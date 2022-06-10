@@ -1,8 +1,7 @@
 import React from 'react';
 
 import { PersonalDetails } from './PersonalDetails';
-import TimeNow from './TimeNow';
-
+import { TimeNow } from './TimeNow';
 import { Button } from './Components';
 
 export default () => (
